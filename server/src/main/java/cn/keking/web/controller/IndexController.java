@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class IndexController {
 
-    @GetMapping( "/index")
-    public String go2Index(){
-        return "/main/index";
-    }
+//    @GetMapping( "/index")
+//    public String go2Index(){
+//        return "/main/index";
+//    }
 
     @GetMapping( "/record")
     public String go2Record(){
@@ -31,10 +31,10 @@ public class IndexController {
         return "/main/integrated";
     }
 
-    @GetMapping( "/")
-    public String root() {
-        return "/main/index";
-    }
+//    @GetMapping( "/")
+//    public String root() {
+//        return "/main/index";
+//    }
 
 
 }
