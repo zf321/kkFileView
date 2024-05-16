@@ -37,9 +37,9 @@
         </div>
     </#list>
 </div>
-<#if "false" == switchDisabled>
-    <img src="images/pdf.svg" width="48" height="48" style="position: fixed; cursor: pointer; top: 40%; right: 48px; z-index: 999;" alt="使用PDF预览" title="使用PDF预览" onclick="changePreviewType('pdf')"/>
-</#if>
+<#--<#if "false" == switchDisabled>-->
+<#--    <img src="images/pdf.svg" width="48" height="48" style="position: fixed; cursor: pointer; top: 40%; right: 48px; z-index: 999;" alt="使用PDF预览" title="使用PDF预览" onclick="changePreviewType('pdf')"/>-->
+<#--</#if>-->
 <script>
     window.onload = function () {
         /*初始化水印*/
