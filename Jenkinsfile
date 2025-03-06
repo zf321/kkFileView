@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh '''
-                docker login lo-harbor.yyjzt.com -u admin -p jzt600998
+                docker login lo-harbor.yyjzt.com -u push -p Push1234
 
                 cd $WORKSPACE
 
